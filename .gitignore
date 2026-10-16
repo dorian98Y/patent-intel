@@ -1,0 +1,11 @@
+# runtime data — never commit fetched results or caches
+cache/
+runs/
+*.cache.json
+cache.json
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+*.tmp

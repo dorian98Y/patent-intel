@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "patent-intel": {
+      "command": "python3",
+      "args": ["-m", "patent_intel.mcp_server"],
+      "env": {
+        "PYTHONPATH": "/path/to/patent-intel",
+        "GP_EXITS": "9050,9052,9054,9056",
+        "GP_CACHE": "~/.cache/patent-intel",
+        "GP_NEWNYM": ""
+      }
+    }
+  }
+}
